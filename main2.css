@@ -1,0 +1,149 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:white;
+}
+.logo{
+    width:20%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width:123%;
+    border:solid black;
+    height: 90%;
+}
+.navbar{
+    display:flex;
+}
+.nav-list{
+    width:50%;
+    display: flex;
+}
+.nav-list li{
+    list-style: none;
+    padding:20px 30px;
+}
+.nav-list li a:hover{
+    color:#007FFF;
+}
+.nav-list li a:active{
+    color:lightseagreen;
+}
+.nav-list li a{
+    text-decoration:none;
+    color:white;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 17px;
+}
+.nav-list{
+    justify-content: space-evenly;
+}
+.navbar-background{
+    margin-top: 3px;
+    border:solid #484848 1px;
+    border-radius: 40px;
+    background-color:#0039a6;
+}
+table, th, td {
+    border: 3px solid black;
+    padding: 5px;
+    font-family:'Patrick Hand',cursive;
+}
+table {
+    border-collapse: collapse;
+    width: 57%;
+    margin: auto;
+}
+#adding{
+    text-align: center;
+    margin-top:35px;
+    margin-left:290px;
+    margin-right:290px
+}
+.box{
+    width:90%;
+    padding:7px 24px;
+    border:#000f89 solid 1px;
+    border-radius:3px;
+    margin:5px;
+    font-family:'Patrick Hand',cursive;
+}
+.box:hover{
+    background-color:#E0FFFF;
+    border:solid #004792 2px;
+}
+.box:active{
+    background-color:#B2FFFF;
+}
+#heading{
+    font-family:'Permanent Marker',cursive;
+    text-align: center;
+    margin-top:35px;
+    color:#1a1f71;
+}
+#para{
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+}
+.button{
+    border:solid black 1px;
+    border-radius:3px;
+    padding:7px 30px;
+    background-color:#1560bd;
+    color:bisque;
+    cursor: pointer;
+}
+.button:active{
+    background-color:bisque;
+    color:black;
+}
+.button:hover{
+    background-color:#005A9C;
+}
+#next{
+    margin-left:550px;
+    margin-top: 8px;
+    background-color: #1560bd;
+    color: bisque;
+    padding: 7px 30px;
+    border:solid black 1px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#next:hover{
+    background-color:#005A9C;
+}
+#next:active{
+    background-color:bisque;
+    color:black;
+}
+.del_button{
+    margin:auto;
+    padding: 1px 5px;
+    background-color: black;
+    color:white;
+    border: white;
+    border-radius:3px;
+    cursor:pointer;
+}
+.del_button:hover{
+    background-color:grey;
+}
+.shadow{
+    border:solid darkblue 3px;
+    box-shadow: 3px 3px 5px 6px black;
+    margin-top: 15px;
+    margin-left:30px;
+    margin-right:50px;
+    padding-bottom: 47px;
+}
+#check{
+    text-align:center;
+    margin-top:10px;
+    font-size: 20px;
+}

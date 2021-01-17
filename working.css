@@ -1,0 +1,119 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    background-color:white;
+}
+.logo{
+    width:20%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width:123%;
+    border:solid black;
+    height: 90%;
+}
+.navbar{
+    display:flex;
+
+}
+.nav-list{
+    width:50%;
+    display: flex;
+}
+.nav-list li{
+    list-style: none;
+    padding:20px 30px;
+}
+.nav-list li a:hover{
+    color:#007FFF;
+}
+.nav-list li a:active{
+    color:lightseagreen;
+}
+.nav-list li a{
+    text-decoration:none;
+    color:white;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 17px;
+}
+.nav-list{
+    justify-content: space-evenly;
+}
+.navbar-background{
+    margin-top: 3px;
+    border:solid #484848 1px;
+    border-radius: 40px;
+    background-color:#0039a6;
+}
+.boxes{
+    display:flex;
+    margin:109px;
+}
+#box1{
+    margin-left:-97px;
+    margin-right: 20px;
+    width:165%;
+    background-color: #e0ffff;
+}
+#box3{
+    margin-right:-101px;
+    width:165%;
+    background-color: #e0ffff;
+}
+#box2{
+    margin-right: 20px;
+    width:165%;
+    background-color: #e0ffff;
+}
+.box{
+    padding:10px;
+    border:solid black 3px;
+    border-radius:3px;
+}
+#button1{
+    margin-left:153px;
+}
+#para1{
+    margin-bottom: 79px;
+}
+#button2{
+    margin-left: 153px;
+    margin-top: 80px;
+}
+#button3{
+    margin-left:153px;
+    margin-top:10px;
+}
+.heading{
+    font-family: 'Cormorant Garamond', serif;
+}
+.para{
+    font-family: 'Space Mono', monospace;
+}
+.button{
+    border:solid black 1px;
+    border-radius: 3px;
+    padding:5px 15px;
+    background-color:#1560bd;
+    color:bisque;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #005A9C;
+}
+.button:active{
+    background-color:bisque;
+    color:black;
+}
+.shadow{
+    border:solid darkblue 3px;
+    box-shadow: 3px 3px 5px 6px black;
+    margin-top: 20px;
+    margin-left:30px;
+    margin-right:50px;
+    margin-bottom: 40px;
+}
